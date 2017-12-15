@@ -1,0 +1,119 @@
+/* side.css */
+
+@media (min-width: 800px) {
+    #left-pane {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+
+        width: 400px;
+    }
+}
+
+@media (max-width: 800px) {
+    #left-pane {
+        /*position: absolute;*/
+        top: 0;
+        height: 500px;
+        /*left: 10;*/
+        /*bottom: 0;*/
+
+        /*width: 250px;*/
+    }
+
+    #nav-menu ul li {
+        float: left;
+    }
+}
+
+@media handheld {
+    #left-pane {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+
+        width: 150px;
+        padding: 0;
+        float: left;
+    }
+}
+
+
+#left-pane {
+    background: #252525;
+    color: white;
+    padding: 0;
+
+    font-family: "PT Sans", sans-serif;
+}
+
+#left-pane a {
+    color: lightgray;
+}
+
+#name {
+    font-family: "Raleway", sans-serif;
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#name .u-url {
+    display: none;
+}
+
+#name .p-job-title {
+    display: block;
+    font-style: italic;
+    font-size: 11pt;
+    color: #ddd;
+}
+
+#photo {
+    width: 10em;
+    margin: auto;
+    margin-top: 3em;
+}
+
+#photo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#contacts, #contacts a {
+    margin-top: 0.5em;
+    text-align: center;
+    color: #777;
+}
+
+#contacts a:hover {
+    color: lightgrey;
+}
+
+#contacts span {
+    margin: 0 5px;
+    /*margin-right: 5px;*/
+}
+
+#nav-menu {
+    margin-top: 8em;
+    /*margin-left: 8em;*/
+    margin-right: 1em;
+    text-align: right;
+}
+
+#nav-menu li {
+    list-style: none;
+    margin-top: 0.5em;
+}
+
+#license {
+    position: absolute;
+    left: 1em;
+    right: 1em;
+    bottom: 2em;
+
+    font-size: 9pt;
+}
