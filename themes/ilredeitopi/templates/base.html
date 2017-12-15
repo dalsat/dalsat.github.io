@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        {% endif %}
+        {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_ATOM and category %}
+        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_RSS and category %}
+        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+        {% endif %}
+        {% if TAG_FEED_ATOM and tag %}
+        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+        {% endif %}
+        {% if TAG_FEED_RSS and tag %}
+        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+        {% endif %}
+
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
+
+        {% endblock head %}
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+
+            <div id="left-pane">
+                <div id="photo">
+                    <img src="{{ SITEURL }}/theme/images/tommaso.png"></img>
+                </div>
+
+                <div id="name" class="h-card">
+                    <span class="p-name">
+                        <a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a>
+                    </span>
+                    <span class="u-url">http://www.inf.usi.ch/phd/dalsat</span>
+                    <span class="p-job-title">PhD. Student</span>
+                </div>
+
+                <div id=contacts>
+
+                    {% for contact, contact_url, contact_icon in SOCIAL %}
+                    <span><i class="fa fa-{{ contact_icon }}"></i> <a href="{{ contact_url }}" rel="me">{{ contact }}</a></span>
+                    {% endfor %}
+
+                    <!-- <span><i class="fa fa-github"></i> <a href="https://github.com/ilredeitopi" rel="me">GitHub</a></span>
+
+                    <span><i class="fa fa-rocket"></i> <a href="http://smalltalkhub.com/#!/~dalsat" rel="me">SmalltalkHub</a></span>
+
+                    <span><i class="fa fa-twitter"></i> <a href="https://twitter.com/ilredeitopi" rel="me">Twitter</a></span>
+
+                    <span><i class="fa fa-envelope"></i> <a href="mailto:tommaso [dot] dalsasso [at] gmail [dot] com">Email</a></span>
+
+                    <span><i class="fa fa-blog"></i> <a href="{{ SITEURL }}/blog">Blog</a></span> -->
+
+                </div>
+
+                {% if SHOW_BLOG_MENU %}
+                <div id="blog-menu">
+                    <span><a href="{{ SITEURL }}/">Home</a></span>
+                    <span><a href="{{ SITEURL }}/blog.html">Blog</a></span>
+                </div>
+                {% endif %}
+
+                <nav id="menu"><ul>
+                {% for title, link in MENUITEMS %}
+                    <li><a href="{{ link }}">{{ title }}</a></li>
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                  {% for p in PAGES %}
+                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                  {% endfor %}
+                {% else %}
+                  {% if DISPLAY_CATEGORIES_ON_MENU %}
+                    {% for cat, null in categories %}
+                      <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                    {% endfor %}
+                  {% endif %}
+                {% endif %}
+                </ul></nav><!-- /#menu -->
+
+                <nav id="nav-menu">
+                {% for pg in pages %}
+                    {% if pg == page %}
+                    <ul>
+                    {% for item in page.metadata.menu.split(',') %}
+                        <li><a href='#{{ item|trim|lower|replace(' ', '_') }}'>{{ item }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    {% endif %}
+                {% endfor %}
+            </nav>
+
+                <div id="license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+                </div>
+            </div> <!-- left-pane -->
+
+        </header><!-- /#banner -->
+
+        <main id="main-pane">
+            {% block content %}
+            {% endblock %}
+        </main>
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
