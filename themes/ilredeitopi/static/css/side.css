@@ -1,56 +1,32 @@
 /* side.css */
 
-@media (min-width: 800px) {
-    #left-pane {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-
-        width: 400px;
-    }
-}
-
-@media (max-width: 800px) {
-    #left-pane {
-        /*position: absolute;*/
-        top: 0;
-        height: 500px;
-        /*left: 10;*/
-        /*bottom: 0;*/
-
-        /*width: 250px;*/
-    }
-
-    #nav-menu ul li {
-        float: left;
-    }
-}
-
-@media handheld {
-    #left-pane {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-
-        width: 150px;
-        padding: 0;
-        float: left;
-    }
-}
-
-
-#left-pane {
-    background: #252525;
+#left-pane, footer {
+    background: var(--header-color);
     color: white;
     padding: 0;
-
     font-family: "PT Sans", sans-serif;
+
+    position: fixed;
+    width: 400px;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 #left-pane a {
     color: lightgray;
+}
+
+footer {
+    font-size: 9pt;
+    width: 390px;
+    padding: 5px;
+    top: auto;
+
+}
+
+footer a {
+    color: var(--lighter-color);
 }
 
 #name {
@@ -58,6 +34,10 @@
     font-size: 24pt;
     text-align: center;
     margin-top: 1em;
+}
+
+#name .p-name {
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 #name .u-url {
@@ -69,6 +49,7 @@
     font-style: italic;
     font-size: 11pt;
     color: #ddd;
+    margin-top: 5px;
 }
 
 #photo {
@@ -85,11 +66,14 @@
 #contacts, #contacts a {
     margin-top: 0.5em;
     text-align: center;
-    color: #777;
+    /* color: #777; */
+    color: var(--lighter-color);
 }
 
 #contacts a:hover {
-    color: lightgrey;
+    /* color: lightgrey; */
+    color: var(--secondary-color);
+    /* text-decoration-color: rgb(82, 171, 255); */
 }
 
 #contacts span {
@@ -109,11 +93,6 @@
     margin-top: 0.5em;
 }
 
-#license {
-    position: absolute;
-    left: 1em;
-    right: 1em;
-    bottom: 2em;
-
-    font-size: 9pt;
+#nav-menu a:hover {
+    color: var(--secondary-color);
 }

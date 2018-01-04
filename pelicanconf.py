@@ -13,12 +13,19 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
+STATIC_PATHS = ['images', 'download']
+ARTICLE_PATHS = ['posts']
+ARTICLE_URL = 'posts/{date:%Y-%m-%d}-{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y-%m-%d}-{slug}/index.html'
+AUTHOR_SAVE_AS = ''
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
 
 # Blogroll
 # LINKS = (('Pelican', 'http://getpelican.com/'),
