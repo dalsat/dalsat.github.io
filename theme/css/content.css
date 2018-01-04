@@ -4,15 +4,9 @@ q {
     font-style: italic;
 }
 
-/*@media (not min-width: 799px) {
-    #main-pane {
-        left: 0px;
-    }
-}*/
-
 #main-pane {
     font-family: "PT Sans";
-    font-size: 12pt;
+    font-size: 14pt;
 
     margin-left: 400px;
 }
