@@ -1,5 +1,6 @@
 
-@media handheld, (max-width: 899px) {
+@media screen and (orientation: portrait) {
+/* @media (max-width: 899px) { */
     #left-pane {
         display: inline-block;
         position: relative;
