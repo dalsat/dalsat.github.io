@@ -18,7 +18,7 @@
 }
 
 footer {
-    font-size: 9pt;
+    font-size: 10pt;
     width: 390px;
     padding: 5px;
     top: auto;
@@ -31,7 +31,7 @@ footer a {
 
 #name {
     font-family: "Raleway", sans-serif;
-    font-size: 24pt;
+    font-size: 26pt;
     text-align: center;
     margin-top: 1em;
 }
@@ -47,7 +47,7 @@ footer a {
 #name .p-job-title {
     display: block;
     font-style: italic;
-    font-size: 11pt;
+    font-size: 12pt;
     color: #ddd;
     margin-top: 5px;
 }
@@ -71,7 +71,6 @@ footer a {
 }
 
 #contacts a:hover {
-    /* color: lightgrey; */
     color: var(--secondary-color);
     /* text-decoration-color: rgb(82, 171, 255); */
 }
@@ -83,12 +82,12 @@ footer a {
 
 #nav-menu {
     margin-top: 8em;
-    /*margin-left: 8em;*/
     margin-right: 1em;
     text-align: right;
 }
 
 #nav-menu li {
+    font-size: 14pt;
     list-style: none;
     margin-top: 0.5em;
 }
