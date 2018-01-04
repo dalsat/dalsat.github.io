@@ -1,0 +1,116 @@
+/* main.css */
+
+q {
+    font-style: italic;
+}
+
+/*@media (not min-width: 799px) {
+    #main-pane {
+        left: 0px;
+    }
+}*/
+
+#main-pane {
+    font-family: "PT Sans";
+    font-size: 12pt;
+
+    margin-left: 400px;
+}
+
+#main-pane section {
+    min-height: 20em;
+    padding: 3em 2em 5em 2em;
+    /*border-bottom: 15px dashed #aaa;*/
+
+    background: #fafefe;
+}
+
+#main-pane section li {
+    list-style-type: circle;
+}
+
+#main-pane section {
+    background: var(--background-color);
+}
+
+#main-pane section:nth-child(2n) {
+    background: var(--background-alt-color);
+}
+
+section h2:first-child {
+    font-family: "Raleway";
+    font-weight: lighter;
+    font-size: 18pt;
+    margin-bottom: 2em;
+    padding-left: 0em;
+    display: inline-block;
+    border-bottom: 2px solid var(--secondary-color);
+
+}
+
+#people {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#people a {
+    width: 180px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+@supports (display: grid) {
+    #people {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr) ) ;
+    }
+
+    #people a {
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+#main-pane .h-card {
+    display: inline-block;
+    box-shadow: 2px 2px 5px #aaa;
+    transition: var(--transition-time);
+}
+
+#main-pane a.h-card:hover {
+    /* box-shadow: 2px 2px 7px #777; */
+    box-shadow: 2px 2px 7px #777;
+}
+
+#main-pane .h-card img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+#main-pane .h-card .info {
+    padding: 8px;
+}
+
+#main-pane .h-card div.p-role {
+    font-size: 12pt;
+    color: var(--lighter-color);
+}
+
+#publications ol li {
+    margin-top: 1em;
+}
+
+#publications .h-entry .p-name {
+    font-weight: bold;
+}
+
+#publications .authors {
+    font-style: italic;
+}
