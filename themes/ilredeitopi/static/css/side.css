@@ -18,10 +18,11 @@
 }
 
 footer {
-    font-size: 10pt;
+    font-size: small;
     width: 390px;
     padding: 5px;
     top: auto;
+    text-align: center;
 
 }
 
@@ -31,7 +32,7 @@ footer a {
 
 #name {
     font-family: "Raleway", sans-serif;
-    font-size: 26pt;
+    font-size: var(--title-size);
     text-align: center;
     margin-top: 1em;
 }
@@ -47,7 +48,7 @@ footer a {
 #name .p-job-title {
     display: block;
     font-style: italic;
-    font-size: 12pt;
+    font-size: medium;
     color: #ddd;
     margin-top: 5px;
 }

@@ -7,7 +7,7 @@ Menu: About Me, Research, Publications, Teaching
 
 <section id="about_me">
     <h2>About Me</h2>
-    <p>I am a PhD student ad <a href="http://www.usi.ch">USI (Università della Svizzera Italiana)</a>, in the <a href="http://www.inf.usi.ch">Faculty of Informatics</a></p>
+    <p>I am a PhD student at <a href="http://www.usi.ch">USI (Università della Svizzera Italiana)</a>, in the <a href="http://www.inf.usi.ch">Faculty of Informatics</a></p>
 
     <p>I obtained my bachelor's and master's degree in Informatics at the University of Padova, where I specialized in Artificial Intelligence, Information Retrieval, and Machine Learning.</p>
 
@@ -61,7 +61,7 @@ Menu: About Me, Research, Publications, Teaching
         </a>
 
         <a href="http://www.inf.usi.ch/phd/lin/" class="h-card">
-            <img src="{filename}/images/people/bin.png" class="u-photo">
+            <img src="{filename}/images/people/bin.jpg" class="u-photo">
             <div class="info">
                 <span class="p-name">Bin Lin</span>
                 <div class="p-role">PhD student</div>

@@ -13,7 +13,11 @@
     --link-visited-color: #353535; /* unused */
 
     /* fonts */
-    --text-size: 13pt;
+    font-size: 1em;
+    /* --text-size: 13pt; */
+    --text-size: 1rem;
+    --section-size: 1.5em;
+    --title-size: 2.2em;
 
     /* settings */
     --transition-time: 0.3s;
