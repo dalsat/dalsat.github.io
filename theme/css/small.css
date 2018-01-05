@@ -5,7 +5,8 @@
 /* @media (max-width: 899px) { */
 
     :root {
-        --text-size: 14pt;
+        font-size: 1.2em;
+        /* --text-size: 14pt; */
     }
 
     #left-pane {

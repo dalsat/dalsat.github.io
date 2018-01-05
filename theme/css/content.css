@@ -34,8 +34,8 @@ q {
 section h2:first-child {
     font-family: "Raleway";
     font-weight: lighter;
-    font-size: 18pt;
-    margin-bottom: 2em;
+    font-size: var(--section-size);
+    margin-bottom: 1.5em;
     padding-left: 0em;
     display: inline-block;
     border-bottom: 2px solid var(--secondary-color);
@@ -93,7 +93,8 @@ section h2:first-child {
 }
 
 #main-pane .h-card div.p-role {
-    font-size: 12pt;
+    /* font-size: 12pt; */
+    font-size: var(--text-size);
     color: var(--lighter-color);
 }
 
