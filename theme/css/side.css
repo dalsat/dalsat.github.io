@@ -81,12 +81,7 @@ footer a {
 }
 
 #nav-menu {
-    /* margin-top: 8em; */
-    /* display: flex;
-    flex-direction: column;
-    flex: auto; */
-    /* flex-direction: row; */
-    /* align-items: stretch; */
+    /* margin-top: 2em; */
     margin-right: 1em;
     text-align: right;
 }
