@@ -8,7 +8,7 @@ Menu: About Me, Research, Publications, Teaching
 <section id="about_me">
     <h2>About Me</h2>
     <p>I am a PhD student ad <a href="http://www.usi.ch">USI (Università della Svizzera Italiana)</a>, in the <a href="http://www.inf.usi.ch">Faculty of Informatics</a></p>
-    
+
     <p>I obtained my bachelor's and master's degree in Informatics at the University of Padova, where I specialized in Artificial Intelligence, Information Retrieval, and Machine Learning.</p>
 
     <p>My research interests involve Software Engineering and Software Evolution. I am currently working with bug tracking systems. I work in the REVEAL (Reverse Engineering, Visualization, Evolution Analisys Lab) group at the University of Lugano, faculty of Informatics.</p>
@@ -95,7 +95,7 @@ Menu: About Me, Research, Publications, Teaching
 
     <p>The tools I built led to the creation of <a href="http://shoreline.inf.usi.ch/">ShoreLine</a>, a data collection system to collect and browse failure information for the <a href="http://pharo.org/">Pharo</a> ecosystem</p>
 
-    My main interests include:
+    My interests include:
 
     <ul>
         <li>Software Engineering</li>
@@ -173,7 +173,7 @@ Menu: About Me, Research, Publications, Teaching
 
 <section id="teaching">
     <h2>Teaching</h2>
-    <p>During my PhD I was a teaching assistant for the following courses:</p>
+    <p>During my PhD I served as a teaching assistant for the following courses:</p>
     <ol>
         <li>Software Atelier I: Software Tools 2013/2014</li>
         <li>Software Atelier IV: Software Engineering 2013/2014</li>

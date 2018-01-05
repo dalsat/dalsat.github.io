@@ -81,13 +81,23 @@ footer a {
 }
 
 #nav-menu {
-    margin-top: 8em;
+    /* margin-top: 2em; */
     margin-right: 1em;
     text-align: right;
 }
 
+#nav-menu ul {
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
 #nav-menu li {
-    font-size: 14pt;
+    font-size: var(--text-size);
     list-style: none;
     margin-top: 0.5em;
 }
