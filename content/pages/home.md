@@ -17,7 +17,7 @@ Menu: About Me, Research, Publications, Teaching
 
     <div id="people">
         <a href="http://www.inf.usi.ch/faculty/lanza" class="h-card">
-            <img src="{filename}/images/people/michele.jpg" class="u-photo">
+            <img src="images/people/michele.jpg" class="u-photo">
             <div class="info">
                 <span class="p-job-title">Prof.</span>
                 <span class="p-name">Michele Lanza</span>
@@ -26,7 +26,7 @@ Menu: About Me, Research, Publications, Teaching
         </a>
 
         <a href="http://www.inf.usi.ch/faculty/bavota/" class="h-card">
-            <img src="{filename}/images/people/gabriele.jpg" class="u-photo">
+            <img src="images/people/gabriele.jpg" class="u-photo">
             <div class="info">
                 <span class="p-job-title">Prof.</span>
                 <span class="p-name">Gabriele Bavota</span>
@@ -35,7 +35,7 @@ Menu: About Me, Research, Publications, Teaching
         </a>
 
         <a href="http://www.inf.usi.ch/postdoc/mocci/" class="h-card">
-            <img src="{filename}/images/people/andrea.jpg" class="u-photo">
+            <img src="images/people/andrea.jpg" class="u-photo">
             <div class="info">
                 <span class="p-job-title">Dr.</span>
                 <span class="p-name">Andrea Mocci</span>
@@ -44,7 +44,7 @@ Menu: About Me, Research, Publications, Teaching
         </a>
 
         <a href="http://www.inf.usi.ch/phd/ponzanelli/" class="h-card">
-            <img src="{filename}/images/people/luca.jpg" class="u-photo">
+            <img src="images/people/luca.jpg" class="u-photo">
             <div class="info">
                 <span class="p-job-title">Dr.</span>
                 <span class="p-name">Luca Ponzanelli</span>
@@ -53,7 +53,7 @@ Menu: About Me, Research, Publications, Teaching
         </a>
 
         <a href="http://www.inf.usi.ch/phd/minelli/" class="h-card">
-            <img src="{filename}/images/people/roberto.jpg" class="u-photo">
+            <img src="images/people/roberto.jpg" class="u-photo">
             <div class="info">
                 <span class="p-name">Roberto Minelli</span>
                 <div class="p-role">PhD student</div>
@@ -61,7 +61,7 @@ Menu: About Me, Research, Publications, Teaching
         </a>
 
         <a href="http://www.inf.usi.ch/phd/lin/" class="h-card">
-            <img src="{filename}/images/people/bin.jpg" class="u-photo">
+            <img src="images/people/bin.jpg" class="u-photo">
             <div class="info">
                 <span class="p-name">Bin Lin</span>
                 <div class="p-role">PhD student</div>
@@ -69,7 +69,7 @@ Menu: About Me, Research, Publications, Teaching
         </a>
 
         <a href="http://www.inf.usi.ch/phd/aghajani/" class="h-card">
-            <img src="{filename}/images/people/emad.jpg" class="u-photo">
+            <img src="images/people/emad.jpg" class="u-photo">
             <div class="info">
                 <span class="p-name">Emad Aghajani</span>
                 <div class="p-role">PhD student</div>
@@ -77,7 +77,7 @@ Menu: About Me, Research, Publications, Teaching
         </a>
 
         <a href="http://usi.to/yh7" class="h-card">
-            <img src="{filename}/images/people/jevgenija.jpg" class="u-photo">
+            <img src="images/people/jevgenija.jpg" class="u-photo">
             <div class="info">
                 <span class="p-name">Jevgenija Pantiuchina</span>
                 <div class="p-role">PhD student</div>
