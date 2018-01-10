@@ -12,7 +12,7 @@
     #left-pane {
         display: inline-block;
         position: relative;
-        height: 500px;
+        /* min-height: 500px; */
         width: 100%;
     }
 
@@ -30,11 +30,8 @@
     }
 
     #nav-menu {
-        /* position: relative; */
-        /* bottom: 1em; */
-        /* margin-top: 100px; */
+        margin-top: 2em;
         text-align: center;
-        /* justify-content: space-around; */
     }
 
     #nav-menu ul {
@@ -42,10 +39,8 @@
     }
 
     #nav-menu li {
-        display: inline-block;
-        /* list-style: none; */
-        /* margin-top: 0.5em; */
-        /* margin: 0.5em; */
+        /* display: inline-block; */
+        padding: 0 .5em;
     }
 
 }
