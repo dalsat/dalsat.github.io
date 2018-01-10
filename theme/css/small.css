@@ -24,6 +24,7 @@
         display: inline-block;
         position: static;
         width: 100%;
+        padding: 20px 0;
         bottom: 0px;
         top: auto;
     }
