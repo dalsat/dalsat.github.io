@@ -30,6 +30,8 @@ body {
     border: 0;
     padding: 0;
     color: var(--primary-color);
+    scroll-behavior: smooth;
+
 }
 
 a {
