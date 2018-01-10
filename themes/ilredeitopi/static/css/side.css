@@ -67,6 +67,10 @@ footer a {
     border-radius: 50%;
 }
 
+#contacts {
+    margin-bottom: 2em;
+}
+
 #contacts, #contacts a {
     margin-top: 0.5em;
     text-align: center;
