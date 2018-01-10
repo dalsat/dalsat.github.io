@@ -21,6 +21,10 @@ q {
 
 #main-pane section li {
     list-style-type: circle;
+    /* list-style-type: none; */
+    /* border-left: 2px solid var(--secondary-color);
+    padding-left: 10px;
+    margin-bottom: 3px; */
 }
 
 #main-pane section {
