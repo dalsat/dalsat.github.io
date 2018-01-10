@@ -53,7 +53,10 @@
                 <div id=contacts>
 
                     {% for contact, contact_url, contact_icon in SOCIAL %}
-                    <span><i class="fa fa-{{ contact_icon }}"></i> <a href="{{ contact_url }}" rel="me">{{ contact }}</a></span>
+                    <span class="side-contact">
+                        <i class="fa fa-{{ contact_icon }}"></i>
+                        <a href="{{ contact_url }}" rel="me">{{ contact }}</a>
+                    </span>
                     {% endfor %}
 
                 </div>

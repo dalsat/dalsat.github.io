@@ -13,7 +13,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
-STATIC_PATHS = ['images', 'download']
+STATIC_PATHS = ['images', 'download', 'CNAME']
 ARTICLE_PATHS = ['posts']
 ARTICLE_URL = 'posts/{date:%Y-%m-%d}-{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y-%m-%d}-{slug}/index.html'

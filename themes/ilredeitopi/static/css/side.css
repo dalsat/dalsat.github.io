@@ -17,6 +17,10 @@
     color: lightgray;
 }
 
+#left-pane .side-contact {
+    display: inline-block;
+}
+
 footer {
     font-size: small;
     width: 390px;
