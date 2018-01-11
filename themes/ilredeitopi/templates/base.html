@@ -29,7 +29,15 @@
         <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
 
-        <link rel="stylesheet" type="text/css" href="theme/css/style.css">
+        {% if GOOGLE_ANALYTICS %}
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS }}">
+        </script>
+        <script src="{{ SITE_URL }}/theme/js/ga.js"></script>
+        {% endif %}
+        <link rel="stylesheet" type="text/css" href="{{ SITE_URL }}/theme/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="{{ SITE_URL }}/favicon.png">
 
         {% endblock head %}
 </head>

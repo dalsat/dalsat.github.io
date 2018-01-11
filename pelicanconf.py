@@ -13,7 +13,12 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
-STATIC_PATHS = ['images', 'download', 'CNAME']
+STATIC_PATHS = ['images', 'download', 'extra/favicon.png', 'extra/CNAME']
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/favicon.png': {'path': 'favicon.png'},
+}
+
 ARTICLE_PATHS = ['posts']
 ARTICLE_URL = 'posts/{date:%Y-%m-%d}-{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y-%m-%d}-{slug}/index.html'

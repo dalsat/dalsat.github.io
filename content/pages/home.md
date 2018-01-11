@@ -176,10 +176,15 @@ Menu: About Me, Research, Publications, Teaching
     <p>During my PhD I served as a teaching assistant for the following courses:</p>
     <ol>
         <li>Software Atelier I: Software Tools 2013/2014</li>
+
         <li>Software Atelier IV: Software Engineering 2013/2014</li>
+
         <li>Algorithms &amp; Data Structures 2014/2015</li>
+
         <li>Software Tools Atelier 2014/2015</li>
+
         <li>Software Atelier 1: Fundamentals of Informatics	2015/2016</li>
-        <li>Software Atelier 1: Fundamentals of Informatics 2016/2017</li>
+
+        <li><a href="https://search.usi.ch/en/courses/35255587/Software-Atelier-1-Fundamentals-of-Informatics">Software Atelier 1: Fundamentals of Informatics 2016/2017</a></li>
     </ol>
 </section>
