@@ -85,31 +85,51 @@ footer a {
 
 #contacts span {
     margin: 0 5px;
-    /*margin-right: 5px;*/
 }
 
-#nav-menu {
-    /* margin-top: 2em; */
-    margin-right: 1em;
-    text-align: right;
-}
-
-#nav-menu ul {
-    /* display: flex; */
+.navbar ul {
     display: flex;
-    flex-direction: column;
     flex: auto;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-around;
 }
 
-#nav-menu li {
+.navbar li {
     font-size: var(--text-size);
     list-style: none;
     margin-top: 0.5em;
 }
 
-#nav-menu a:hover {
+.navbar a {
+    color: lightgray;
+}
+
+#nav-menu {
+    margin-right: 1em;
+    text-align: right;
+}
+
+#nav-menu a:hover, #nav-menu-top a:hover {
     color: var(--secondary-color);
+}
+
+#nav-menu-top {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+#nav-menu-top ul {
+    flex-direction: row;
+}
+
+#nav-menu-top li {
+    margin: 0;
+    padding: 0 .5em;
 }

@@ -2,17 +2,14 @@
 @media (orientation: portrait),
        (max-width: 900px),
        (max-height: 600px){
-/* @media (max-width: 899px) { */
 
     :root {
         font-size: 1.2em;
-        /* --text-size: 14pt; */
     }
 
     #left-pane {
         display: inline-block;
         position: relative;
-        /* min-height: 500px; */
         width: 100%;
     }
 
@@ -21,27 +18,18 @@
     }
 
     footer {
-        display: inline-block;
+        display: block;
         position: static;
         width: 100%;
         padding: 20px 0;
-        bottom: 0px;
-        top: auto;
     }
 
     #nav-menu {
-        /* margin-top: 2em; */
-        text-align: center;
-        /* position: sticky;
-        top: 0; */
+        display: none;
     }
 
-    #nav-menu ul {
-        flex-direction: row;
-    }
-
-    #nav-menu li {
-        /* display: inline-block; */
-        padding: 0 .5em;
+    #nav-menu-top {
+        display: inline-block;
+        /* display: block; */
     }
 }

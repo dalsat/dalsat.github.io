@@ -52,7 +52,7 @@
 
             <div id="left-pane">
                 <div id="photo">
-                    <img src="theme/images/tommaso.png"></img>
+                    <img src="theme/images/tommaso.png" alt="Picture of Tommaso Dal Sasso">
                 </div>
 
                 <div id="name" class="h-card">
@@ -98,7 +98,7 @@
                 {% endif %}
                 </ul></nav><!-- /#menu -->
 
-                <nav id="nav-menu">
+                <nav id="nav-menu" class="navbar">
                 {% for pg in pages %}
                     {% if pg == page %}
                     <ul>
@@ -114,6 +114,19 @@
         </header><!-- /#banner -->
 
         <main id="main-pane">
+
+            <nav id="nav-menu-top" class="navbar">
+            {% for pg in pages %}
+                {% if pg == page %}
+                <ul>
+                {% for item in page.metadata.menu.split(',') %}
+                    <li><a href='#{{ item|trim|lower|replace(' ', '_') }}'>{{ item }}</a></li>
+                {% endfor %}
+                </ul>
+                {% endif %}
+            {% endfor %}
+            </nav>
+
             {% block content %}
             {% endblock %}
         </main>
