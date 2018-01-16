@@ -47,7 +47,7 @@ SOCIAL = (
     ("GitHub", "https://github.com/ilredeitopi", "github"),
     ("SmalltalkHub", "http://smalltalkhub.com/#!/~dalsat", "rocket"),
     ("Twitter", "https://twitter.com/ilredeitopi", "twitter"),
-    ("Email", "mailto:tommaso[dot]dalsasso[at]gmail[dot]com", "envelope"),
+    ("Email", "mailto:tommaso [dot] dalsasso [at] gmail [dot] com", "envelope"),
     # ("Blog", SITEURL + "/blog", "paragraph")
 )
 
