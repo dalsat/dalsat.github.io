@@ -25,7 +25,7 @@
 
             <div id="left-pane">
                 <div id="photo">
-                    <img src="theme/images/tommaso.png"></img>
+                    <img src="theme/images/tommaso.png" alt="Picture of Tommaso Dal Sasso">
                 </div>
 
                 <div id="name" class="h-card">
@@ -52,7 +52,7 @@
                     </span>
                     <span class="side-contact">
                         <i class="fa fa-envelope"></i>
-                        <a href="mailto:tommaso [dot] dalsasso [at] gmail [dot] com" rel="me">Email</a>
+                        <a href="mailto:tommaso[dot]dalsasso[at]gmail[dot]com" rel="me">Email</a>
                     </span>
 
                 </div>
@@ -61,7 +61,7 @@
                 <nav id="menu"><ul>
                 </ul></nav><!-- /#menu -->
 
-                <nav id="nav-menu">
+                <nav id="nav-menu" class="navbar">
                     <ul>
                         <li><a href='#about_me'>About Me</a></li>
                         <li><a href='#research'> Research</a></li>
@@ -74,6 +74,16 @@
         </header><!-- /#banner -->
 
         <main id="main-pane">
+
+            <nav id="nav-menu-top" class="navbar">
+                <ul>
+                    <li><a href='#about_me'>About Me</a></li>
+                    <li><a href='#research'> Research</a></li>
+                    <li><a href='#publications'> Publications</a></li>
+                    <li><a href='#teaching'> Teaching</a></li>
+                </ul>
+            </nav>
+
     <!-- <h1>Tommaso Dal Sasso</h1> -->
     
 
@@ -89,7 +99,9 @@
 
     <div id="people">
         <a href="http://www.inf.usi.ch/faculty/lanza" class="h-card">
-            <img src="images/people/michele.jpg" class="u-photo">
+            <img src="images/people/michele.jpg"
+                alt="Picture of Michele Lanza"
+                class="u-photo">
             <div class="info">
                 <span class="p-job-title">Prof.</span>
                 <span class="p-name">Michele Lanza</span>
@@ -98,7 +110,9 @@
         </a>
 
         <a href="http://www.inf.usi.ch/faculty/bavota/" class="h-card">
-            <img src="images/people/gabriele.jpg" class="u-photo">
+            <img src="images/people/gabriele.jpg"
+                alt="Picture of Gabriele Bavota"
+                class="u-photo">
             <div class="info">
                 <span class="p-job-title">Prof.</span>
                 <span class="p-name">Gabriele Bavota</span>
@@ -107,7 +121,9 @@
         </a>
 
         <a href="http://www.inf.usi.ch/postdoc/mocci/" class="h-card">
-            <img src="images/people/andrea.jpg" class="u-photo">
+            <img src="images/people/andrea.jpg"
+                alt="Picture of Andrea Mocci"
+                class="u-photo">
             <div class="info">
                 <span class="p-job-title">Dr.</span>
                 <span class="p-name">Andrea Mocci</span>
@@ -116,7 +132,9 @@
         </a>
 
         <a href="http://www.inf.usi.ch/phd/ponzanelli/" class="h-card">
-            <img src="images/people/luca.jpg" class="u-photo">
+            <img src="images/people/luca.jpg"
+                alt="Picture of Luca Ponzanelli"
+                class="u-photo">
             <div class="info">
                 <span class="p-job-title">Dr.</span>
                 <span class="p-name">Luca Ponzanelli</span>
@@ -125,15 +143,20 @@
         </a>
 
         <a href="http://www.inf.usi.ch/phd/minelli/" class="h-card">
-            <img src="images/people/roberto.jpg" class="u-photo">
+            <img src="images/people/roberto.jpg"
+                alt="Picture of Roberto Minelli"
+                class="u-photo">
             <div class="info">
+                <span class="p-job-title">Dr.</span>
                 <span class="p-name">Roberto Minelli</span>
-                <div class="p-role">PhD student</div>
+                <div class="p-role">Postdoc</div>
             </div>
         </a>
 
         <a href="http://www.inf.usi.ch/phd/lin/" class="h-card">
-            <img src="images/people/bin.jpg" class="u-photo">
+            <img src="images/people/bin.jpg"
+                alt="Picture of Bin Lin"
+                class="u-photo">
             <div class="info">
                 <span class="p-name">Bin Lin</span>
                 <div class="p-role">PhD student</div>
@@ -141,7 +164,9 @@
         </a>
 
         <a href="http://www.inf.usi.ch/phd/aghajani/" class="h-card">
-            <img src="images/people/emad.jpg" class="u-photo">
+            <img src="images/people/emad.jpg"
+                alt="Picture of Emad Aghajani"
+                class="u-photo">
             <div class="info">
                 <span class="p-name">Emad Aghajani</span>
                 <div class="p-role">PhD student</div>
@@ -149,7 +174,9 @@
         </a>
 
         <a href="http://usi.to/yh7" class="h-card">
-            <img src="images/people/jevgenija.jpg" class="u-photo">
+            <img src="images/people/jevgenija.jpg"
+                alt="Picture of Jevgenija Pantiuchina"
+                class="u-photo">
             <div class="info">
                 <span class="p-name">Jevgenija Pantiuchina</span>
                 <div class="p-role">PhD student</div>
@@ -183,55 +210,55 @@
 
     <ol>
         <li class="h-entry">
-            <a href="download/publications/Bacc2012a.pdf" class="p-name">Content Classification of Development Emails</a></b><br>
+            <a href="download/publications/Bacc2012a.pdf" class="p-name">Content Classification of Development Emails</a><br>
             <div class="authors">Alberto Bacchelli, Tommaso Dal Sasso, Marco D’Ambros, Michele Lanza</div>
             In Proceedings of ICSE 2012 (34th International Conference on Software Engineering), pp. 375&ndash;385, IEEE CS Press, 2012.
         </li>
 
         <li class="h-entry">
-            <a href="download/publications/vissoft2013.pdf" class="p-name">A closer look at bugs</a></b><br>
+            <a href="download/publications/vissoft2013.pdf" class="p-name">A closer look at bugs</a><br>
             <div class="authors">Tommaso Dal Sasso, Michele Lanza</div>
             In Proceedings of VISSOFT 2013 (1st IEEE Working Conference on Software Visualization), pp. 1&ndash;4, IEEE CS Press, 2013.
         </li>
 
         <li class="h-entry">
-            <a href="download/publications/csmr2014.pdf" class="p-name">in*Bug: Visual analytics of bug repositories</a></b><br>
+            <a href="download/publications/csmr2014.pdf" class="p-name">in*Bug: Visual analytics of bug repositories</a><br>
             <div class="authors">Tommaso Dal Sasso, Michele Lanza</div>
             In Proceedings of CSMR-WCRE 2014 (1st Joint Meeeting of the European Conference on Software Maintenance and Reengineering and the Working Conference on Reverse Engineering), pages 415&ndash;419, IEEE CS Press, 2014.
         </li>
 
         <li class="h-entry">
-            <a href="http://conferences.computer.org/icsme/2014/papers/6146a669.pdf" class="p-name">Managing Software Defects</a></b><br>
+            <a href="http://conferences.computer.org/icsme/2014/papers/6146a669.pdf" class="p-name">Managing Software Defects</a><br>
             <div class="authors">Tommaso Dal Sasso</div>
             In Proceedings of ICSME 2014 (30th International Conference on Software Maintenance and Evolution, page 669, Doctoral Symposium, 2014.
         </li>
 
         <li class="h-entry">
-            <a href="download/publications/saner2015.pdf" class="p-name">Misery Loves Company: CrowdStacking Traces to Aid Problem Detection.</a></b><br>
+            <a href="download/publications/saner2015.pdf" class="p-name">Misery Loves Company: CrowdStacking Traces to Aid Problem Detection.</a><br>
             <div class="authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza</div>
             In Proceedings of SANER 2015 (22nd IEEE International Conference on Software Analysis, Evolution, and Reengineering), pp. 131&ndash;140, 2015.
         </li>
 
         <li class="h-entry">
-            <a href="download/publications/vissoft2015.pdf" class="p-name">Blended, Not Stirred: Multiconcern visualization of large software systems</a></b><br>
+            <a href="download/publications/vissoft2015.pdf" class="p-name">Blended, Not Stirred: Multiconcern visualization of large software systems</a><br>
             <div class="authors">Tommaso Dal Sasso, Roberto Minelli, Andrea Mocci, Michele Lanza</div>
             In Proceedings of VISSOFT 2015 (3rd IEEE Working Conference on Software Visualization), pp. 106&ndash;115 2015.
         </li>
 
         <li class="h-entry">
-            <a href="download/publications/qrs2016.pdf" class="p-name">What Makes a Satisficing Bug Report</a></b><br>
+            <a href="download/publications/qrs2016.pdf" class="p-name">What Makes a Satisficing Bug Report</a><br>
             <div class="authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza</div>
             In Proceedings of QRS 2016 (The 2016 IEEE International Conference on Quality, Reliability, and Security), pp. 164&ndash;174, IEEE CS Press, 2016.
         </li>
 
         <li class="h-entry">
-            <a href="download/publications/saner2017.pdf" class="p-name">How to Gamify Software Engineering</a></b><br>
+            <a href="download/publications/saner2017.pdf" class="p-name">How to Gamify Software Engineering</a><br>
             <div class="authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza, Ebrisa Mastrodicasa</div>
             In Proceedings of SANER 2017 (24th IEEE International Conference on Software Analysis, Evolution, and Reengineering), pp. 261&ndash;271, IEEE CS Press, 2017.
         </li>
 
         <li class="h-entry">
-            <a href="download/publications/plateau2017.pdf" class="p-name">Sympathy for the Devil: Reified Collection of Runtime Errors</a></b><br>
+            <a href="download/publications/plateau2017.pdf" class="p-name">Sympathy for the Devil: Reified Collection of Runtime Errors</a><br>
             <div class="authors">Tommaso dal Sasso, Andrei Chis, Andrea Mocci, Tudor Girba, Michele Lanza</div>
             In Proceedings of PLATEAU 2017 (8th International Workshop on Evaluation and Usability of Programming Languages and Tools), to be published, ACM Press, 2017
         </li>

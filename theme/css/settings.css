@@ -31,7 +31,7 @@ body {
     padding: 0;
     color: var(--primary-color);
     scroll-behavior: smooth;
-
+    /* margin-bottom: -10px; */
 }
 
 a {
