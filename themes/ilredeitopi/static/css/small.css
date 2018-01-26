@@ -24,11 +24,11 @@
         padding: 20px 0;
     }
 
-    #nav-menu {
+    .nav-menu--side {
         display: none;
     }
 
-    #nav-menu-top {
+    .nav-menu--top {
         display: inline-block;
         /* display: block; */
     }

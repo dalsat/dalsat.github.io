@@ -51,8 +51,9 @@
         <header id="banner" class="body">
 
             <div id="left-pane">
-                <div id="photo">
-                    <img src="theme/images/tommaso.png" alt="Picture of Tommaso Dal Sasso">
+                <div id="photo" class="photo">
+                    <img class="photo__img"
+                         src="theme/images/tommaso.png" alt="Picture of Tommaso Dal Sasso">
                 </div>
 
                 <div id="name" class="h-card">
@@ -98,12 +99,14 @@
                 {% endif %}
                 </ul></nav><!-- /#menu -->
 
-                <nav id="nav-menu" class="navbar">
+                <nav class="nav-menu nav-menu--side">
                 {% for pg in pages %}
                     {% if pg == page %}
                     <ul>
                     {% for item in page.metadata.menu.split(',') %}
-                        <li><a href='#{{ item|trim|lower|replace(' ', '_') }}'>{{ item }}</a></li>
+                        <li class="nav-menu__item">
+                            <a href='#{{ item|trim|lower|replace(' ', '_') }}'>{{ item }}</a>
+                        </li>
                     {% endfor %}
                     </ul>
                     {% endif %}
@@ -115,12 +118,14 @@
 
         <main id="main-pane">
 
-            <nav id="nav-menu-top" class="navbar">
+            <nav class="nav-menu nav-menu--top">
             {% for pg in pages %}
                 {% if pg == page %}
                 <ul>
                 {% for item in page.metadata.menu.split(',') %}
-                    <li><a href='#{{ item|trim|lower|replace(' ', '_') }}'>{{ item }}</a></li>
+                    <li class="nav-menu__item nav-menu__item--top">
+                        <a href='#{{ item|trim|lower|replace(' ', '_') }}'>{{ item }}</a>
+                    </li>
                 {% endfor %}
                 </ul>
                 {% endif %}
@@ -131,7 +136,7 @@
             {% endblock %}
         </main>
 
-        <footer class="body">
+        <footer class="footer">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="CC BY-NC-SA 4.0" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                 Creative Commons Licence
                 <!-- Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License -->
