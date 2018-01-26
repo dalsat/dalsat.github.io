@@ -45,20 +45,20 @@ section h2:first-child {
 
 }
 
-#people {
+.card-box {
     display: flex;
     flex-wrap: wrap;
 
 }
 
-#people a {
+.card-box a {
     width: 180px;
     margin-left: 1em;
     margin-bottom: 1em;
 }
 
 @supports (display: grid) {
-    #people {
+    .card-box {
         /* display: flex;
         flex-wrap: wrap; */
         display: grid;
@@ -66,36 +66,36 @@ section h2:first-child {
         grid-template-columns: repeat(auto-fill, minmax(170px, 1fr) ) ;
     }
 
-    #people a {
+    .card-box a {
         width: auto;
         margin-left: 0;
         margin-bottom: 0;
     }
 }
 
-#main-pane .h-card {
+.card {
     display: inline-block;
     box-shadow: 2px 2px 5px #aaa;
     transition: var(--transition-time);
 }
 
-#main-pane a.h-card:hover {
+.card:hover {
     /* box-shadow: 2px 2px 7px #777; */
     box-shadow: 2px 2px 7px #777;
 }
 
-#main-pane .h-card img {
+.card__picture {
     display: block;
     width: 100%;
     margin: auto;
     border-bottom: 3px solid var(--secondary-color);
 }
 
-#main-pane .h-card .info {
+.card__info {
     padding: 8px;
 }
 
-#main-pane .h-card div.p-role {
+.card__role {
     /* font-size: 12pt; */
     font-size: var(--text-size);
     color: var(--lighter-color);

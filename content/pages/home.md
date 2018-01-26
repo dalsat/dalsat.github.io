@@ -15,89 +15,89 @@ Menu: About Me, Research, Publications, Teaching
 
     <p>The REVEAL group is also composed of:</p>
 
-    <div id="people">
-        <a href="http://www.inf.usi.ch/faculty/lanza" class="h-card">
+    <div id="people" class="card-box">
+        <a href="http://www.inf.usi.ch/faculty/lanza" class="h-card card">
             <img src="images/people/michele.jpg"
                 alt="Picture of Michele Lanza"
-                class="u-photo">
-            <div class="info">
+                class="u-photo card__picture">
+            <div class="card__info">
                 <span class="p-job-title">Prof.</span>
                 <span class="p-name">Michele Lanza</span>
-                <div class="p-role">Head</div>
+                <div class="p-role card__role">Head</div>
             </div>
         </a>
 
-        <a href="http://www.inf.usi.ch/faculty/bavota/" class="h-card">
+        <a href="http://www.inf.usi.ch/faculty/bavota/" class="h-card card">
             <img src="images/people/gabriele.jpg"
                 alt="Picture of Gabriele Bavota"
-                class="u-photo">
-            <div class="info">
+                class="u-photo card__picture">
+            <div class="card__info">
                 <span class="p-job-title">Prof.</span>
                 <span class="p-name">Gabriele Bavota</span>
-                <div class="p-role">Head</div>
+                <div class="p-role card__role">Head</div>
             </div>
         </a>
 
-        <a href="http://www.inf.usi.ch/postdoc/mocci/" class="h-card">
+        <a href="http://www.inf.usi.ch/postdoc/mocci/" class="h-card card">
             <img src="images/people/andrea.jpg"
                 alt="Picture of Andrea Mocci"
-                class="u-photo">
-            <div class="info">
+                class="u-photo card__picture">
+            <div class="card__info">
                 <span class="p-job-title">Dr.</span>
                 <span class="p-name">Andrea Mocci</span>
-                <div class="p-role">Postdoc</div>
+                <div class="p-role card__role">Postdoc</div>
             </div>
         </a>
 
-        <a href="http://www.inf.usi.ch/phd/ponzanelli/" class="h-card">
+        <a href="http://www.inf.usi.ch/phd/ponzanelli/" class="h-card card">
             <img src="images/people/luca.jpg"
                 alt="Picture of Luca Ponzanelli"
-                class="u-photo">
-            <div class="info">
+                class="u-photo card__picture">
+            <div class="card__info">
                 <span class="p-job-title">Dr.</span>
                 <span class="p-name">Luca Ponzanelli</span>
-                <div class="p-role">Postdoc</div>
+                <div class="p-role card__role">Postdoc</div>
             </div>
         </a>
 
-        <a href="http://www.inf.usi.ch/phd/minelli/" class="h-card">
+        <a href="http://www.inf.usi.ch/phd/minelli/" class="h-card card">
             <img src="images/people/roberto.jpg"
                 alt="Picture of Roberto Minelli"
-                class="u-photo">
-            <div class="info">
+                class="u-photo card__picture">
+            <div class="card__info">
                 <span class="p-job-title">Dr.</span>
                 <span class="p-name">Roberto Minelli</span>
-                <div class="p-role">Postdoc</div>
+                <div class="p-role card__role">Postdoc</div>
             </div>
         </a>
 
-        <a href="http://www.inf.usi.ch/phd/lin/" class="h-card">
+        <a href="http://www.inf.usi.ch/phd/lin/" class="h-card card">
             <img src="images/people/bin.jpg"
                 alt="Picture of Bin Lin"
-                class="u-photo">
-            <div class="info">
+                class="u-photo card__picture">
+            <div class="card__info">
                 <span class="p-name">Bin Lin</span>
-                <div class="p-role">PhD student</div>
+                <div class="p-role card__role">PhD student</div>
             </div>
         </a>
 
-        <a href="http://www.inf.usi.ch/phd/aghajani/" class="h-card">
+        <a href="http://www.inf.usi.ch/phd/aghajani/" class="h-card card">
             <img src="images/people/emad.jpg"
                 alt="Picture of Emad Aghajani"
-                class="u-photo">
-            <div class="info">
+                class="u-photo card__picture">
+            <div class="card__info">
                 <span class="p-name">Emad Aghajani</span>
-                <div class="p-role">PhD student</div>
+                <div class="p-role card__role">PhD student</div>
             </div>
         </a>
 
-        <a href="http://usi.to/yh7" class="h-card">
+        <a href="http://usi.to/yh7" class="h-card card">
             <img src="images/people/jevgenija.jpg"
                 alt="Picture of Jevgenija Pantiuchina"
-                class="u-photo">
-            <div class="info">
+                class="u-photo card__picture">
+            <div class="card__info">
                 <span class="p-name">Jevgenija Pantiuchina</span>
-                <div class="p-role">PhD student</div>
+                <div class="p-role card__role">PhD student</div>
             </div>
         </a>
     </div>
