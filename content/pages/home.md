@@ -5,7 +5,7 @@ Menu: About Me, Research, Publications, Teaching
 
 
 
-<section id="about_me">
+<section id="about_me" class="main-section">
     <h2>About Me</h2>
     <p>I am a PhD student at <a href="http://www.usi.ch">USI (Università della Svizzera Italiana)</a>, in the <a href="http://www.inf.usi.ch">Faculty of Informatics</a></p>
 
@@ -103,7 +103,7 @@ Menu: About Me, Research, Publications, Teaching
     </div>
 </section>
 
-<section id="research">
+<section id="research" class="main-section">
     <h2>Research</h2>
 
     <p>My research area deals with the collection, modelling, and representation of the information contained in bug reports and issue tracking systems.</p>
@@ -123,61 +123,61 @@ Menu: About Me, Research, Publications, Teaching
     </ul>
 </section>
 
-<section id="publications" class="h-feed">
+<section id="publications" class="main-section">
     <h2 class="p-name">Publications</h2>
 
     <ol>
-        <li class="h-entry">
-            <a href="download/publications/Bacc2012a.pdf" class="p-name">Content Classification of Development Emails</a><br>
-            <div class="authors">Alberto Bacchelli, Tommaso Dal Sasso, Marco D’Ambros, Michele Lanza</div>
+        <li class="h-entry publication">
+            <a href="download/publications/Bacc2012a.pdf" class="publication__title">Content Classification of Development Emails</a><br>
+            <div class="publication__authors">Alberto Bacchelli, Tommaso Dal Sasso, Marco D’Ambros, Michele Lanza</div>
             In Proceedings of ICSE 2012 (34th International Conference on Software Engineering), pp. 375&ndash;385, IEEE CS Press, 2012.
         </li>
 
-        <li class="h-entry">
-            <a href="download/publications/vissoft2013.pdf" class="p-name">A closer look at bugs</a><br>
-            <div class="authors">Tommaso Dal Sasso, Michele Lanza</div>
+        <li class="h-entry publication">
+            <a href="download/publications/vissoft2013.pdf" class="publication__title">A closer look at bugs</a><br>
+            <div class="publication__authors">Tommaso Dal Sasso, Michele Lanza</div>
             In Proceedings of VISSOFT 2013 (1st IEEE Working Conference on Software Visualization), pp. 1&ndash;4, IEEE CS Press, 2013.
         </li>
 
-        <li class="h-entry">
-            <a href="download/publications/csmr2014.pdf" class="p-name">in*Bug: Visual analytics of bug repositories</a><br>
-            <div class="authors">Tommaso Dal Sasso, Michele Lanza</div>
+        <li class="h-entry publication">
+            <a href="download/publications/csmr2014.pdf" class="publication__title">in*Bug: Visual analytics of bug repositories</a><br>
+            <div class="publication__authors">Tommaso Dal Sasso, Michele Lanza</div>
             In Proceedings of CSMR-WCRE 2014 (1st Joint Meeeting of the European Conference on Software Maintenance and Reengineering and the Working Conference on Reverse Engineering), pages 415&ndash;419, IEEE CS Press, 2014.
         </li>
 
-        <li class="h-entry">
-            <a href="http://conferences.computer.org/icsme/2014/papers/6146a669.pdf" class="p-name">Managing Software Defects</a><br>
-            <div class="authors">Tommaso Dal Sasso</div>
+        <li class="h-entry publication">
+            <a href="http://conferences.computer.org/icsme/2014/papers/6146a669.pdf" class="publication__title">Managing Software Defects</a><br>
+            <div class="publication__authors">Tommaso Dal Sasso</div>
             In Proceedings of ICSME 2014 (30th International Conference on Software Maintenance and Evolution, page 669, Doctoral Symposium, 2014.
         </li>
 
-        <li class="h-entry">
-            <a href="download/publications/saner2015.pdf" class="p-name">Misery Loves Company: CrowdStacking Traces to Aid Problem Detection.</a><br>
-            <div class="authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza</div>
+        <li class="h-entry publication">
+            <a href="download/publications/saner2015.pdf" class="publication__title">Misery Loves Company: CrowdStacking Traces to Aid Problem Detection.</a><br>
+            <div class="publication__authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza</div>
             In Proceedings of SANER 2015 (22nd IEEE International Conference on Software Analysis, Evolution, and Reengineering), pp. 131&ndash;140, 2015.
         </li>
 
-        <li class="h-entry">
-            <a href="download/publications/vissoft2015.pdf" class="p-name">Blended, Not Stirred: Multiconcern visualization of large software systems</a><br>
-            <div class="authors">Tommaso Dal Sasso, Roberto Minelli, Andrea Mocci, Michele Lanza</div>
+        <li class="h-entry publication">
+            <a href="download/publications/vissoft2015.pdf" class="publication__title">Blended, Not Stirred: Multiconcern visualization of large software systems</a><br>
+            <div class="publication__authors">Tommaso Dal Sasso, Roberto Minelli, Andrea Mocci, Michele Lanza</div>
             In Proceedings of VISSOFT 2015 (3rd IEEE Working Conference on Software Visualization), pp. 106&ndash;115 2015.
         </li>
 
-        <li class="h-entry">
-            <a href="download/publications/qrs2016.pdf" class="p-name">What Makes a Satisficing Bug Report</a><br>
-            <div class="authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza</div>
+        <li class="h-entry publication">
+            <a href="download/publications/qrs2016.pdf" class="publication__title">What Makes a Satisficing Bug Report</a><br>
+            <div class="publication__authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza</div>
             In Proceedings of QRS 2016 (The 2016 IEEE International Conference on Quality, Reliability, and Security), pp. 164&ndash;174, IEEE CS Press, 2016.
         </li>
 
-        <li class="h-entry">
-            <a href="download/publications/saner2017.pdf" class="p-name">How to Gamify Software Engineering</a><br>
-            <div class="authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza, Ebrisa Mastrodicasa</div>
+        <li class="h-entry publication">
+            <a href="download/publications/saner2017.pdf" class="publication__title">How to Gamify Software Engineering</a><br>
+            <div class="publication__authors">Tommaso Dal Sasso, Andrea Mocci, Michele Lanza, Ebrisa Mastrodicasa</div>
             In Proceedings of SANER 2017 (24th IEEE International Conference on Software Analysis, Evolution, and Reengineering), pp. 261&ndash;271, IEEE CS Press, 2017.
         </li>
 
-        <li class="h-entry">
-            <a href="download/publications/plateau2017.pdf" class="p-name">Sympathy for the Devil: Reified Collection of Runtime Errors</a><br>
-            <div class="authors">Tommaso dal Sasso, Andrei Chis, Andrea Mocci, Tudor Girba, Michele Lanza</div>
+        <li class="h-entry publication">
+            <a href="download/publications/plateau2017.pdf" class="publication__title">Sympathy for the Devil: Reified Collection of Runtime Errors</a><br>
+            <div class="publication__authors">Tommaso dal Sasso, Andrei Chis, Andrea Mocci, Tudor Girba, Michele Lanza</div>
             In Proceedings of PLATEAU 2017 (8th International Workshop on Evaluation and Usability of Programming Languages and Tools), to be published, ACM Press, 2017
         </li>
 
@@ -188,7 +188,7 @@ Menu: About Me, Research, Publications, Teaching
 <h2>Projects</h2>
 </section>-->
 
-<section id="teaching">
+<section id="teaching" class="main-section">
     <h2>Teaching</h2>
     <p>During my PhD I served as a teaching assistant for the following courses:</p>
     <ol>

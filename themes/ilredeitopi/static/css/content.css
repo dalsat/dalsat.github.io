@@ -11,14 +11,14 @@ q {
     margin-left: 400px;
 }
 
-#main-pane section {
+.main-section {
     min-height: 20em;
     padding: 3em 2em 5em 2em;
     /*border-bottom: 15px dashed #aaa;*/
     background: #fafefe;
 }
 
-#main-pane section li {
+.main-section li {
     list-style-type: circle;
     /* list-style-type: none; */
     /* border-left: 2px solid var(--secondary-color);
@@ -26,15 +26,15 @@ q {
     margin-bottom: 3px; */
 }
 
-#main-pane section {
+.main-section {
     background: var(--background-color);
 }
 
-#main-pane section:nth-child(2n) {
+.main-section:nth-child(2n) {
     background: var(--background-alt-color);
 }
 
-section h2:first-child {
+.main-section h2:first-child {
     font-family: "Raleway";
     font-weight: lighter;
     font-size: var(--section-size);
@@ -101,14 +101,14 @@ section h2:first-child {
     color: var(--lighter-color);
 }
 
-#publications ol li {
+.publication {
     margin-top: 1em;
 }
 
-#publications .h-entry .p-name {
+.publication__title {
     font-weight: bold;
 }
 
-#publications .authors {
+.publication__authors {
     font-style: italic;
 }
