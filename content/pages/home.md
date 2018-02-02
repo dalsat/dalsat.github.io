@@ -71,6 +71,17 @@ Menu: About Me, Research, Publications, Teaching
             </div>
         </a>
 
+        <a href="http://usi.to/2kr" class="h-card card">
+            <img src="images/people/csaba.jpg"
+                alt="Picture of Csaba Nagy"
+                class="u-photo card__picture">
+            <div class="card__info">
+                <span class="p-job-title">Dr.</span>
+                <span class="p-name">Csaba Nagy</span>
+                <div class="p-role card__role">Postdoc</div>
+            </div>
+        </a>
+
         <a href="http://www.inf.usi.ch/phd/lin/" class="h-card card">
             <img src="images/people/bin.jpg"
                 alt="Picture of Bin Lin"
@@ -91,7 +102,7 @@ Menu: About Me, Research, Publications, Teaching
             </div>
         </a>
 
-        <a href="http://usi.to/yh7" class="h-card card">
+        <a href="http://www.inf.usi.ch/phd/pantiuchina/" class="h-card card">
             <img src="images/people/jevgenija.jpg"
                 alt="Picture of Jevgenija Pantiuchina"
                 class="u-photo card__picture">
