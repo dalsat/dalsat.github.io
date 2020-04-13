@@ -44,7 +44,7 @@ AUTHOR_FEED_RSS = None
 
 # ('tag', 'url', 'icon')
 SOCIAL = (
-    ("GitHub", "https://github.com/ilredeitopi", "github"),
+    ("GitHub", "https://github.com/dalsat", "github"),
     ("SmalltalkHub", "http://smalltalkhub.com/#!/~dalsat", "rocket"),
     ("Twitter", "https://twitter.com/ilredeitopi", "twitter"),
     ("Email", "mailto:tommaso [dot] dalsasso [at] gmail [dot] com", "envelope"),
