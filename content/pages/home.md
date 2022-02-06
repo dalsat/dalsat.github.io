@@ -7,7 +7,7 @@ Menu: About Me, Research, Publications, Teaching
 <section id="about_me" class="main-section">
     <h2>About Me</h2>
 
-    <p>I am a data engineer at <a href="https://unit8.com">Unit8</a></p>
+    <p>I am a data engineer at <a href="https://unit8.com">Unit8</a></p>.
 
     <p>
     As a software and data engineer, I seek to have an impact by using data to solve problems. I like working in an energetic environment where ideas are validated with fast prototyping, in order to bring the most value. I deeply value clean and readable code.
