@@ -1,0 +1,114 @@
+/* main.css */
+
+q {
+    font-style: italic;
+}
+
+#main-pane {
+    font-family: "PT Sans";
+    font-size: var(--text-size);
+
+    margin-left: 400px;
+}
+
+.main-section {
+    min-height: 20em;
+    padding: 3em 2em 5em 2em;
+    /*border-bottom: 15px dashed #aaa;*/
+    background: #fafefe;
+}
+
+.main-section li {
+    list-style-type: circle;
+    /* list-style-type: none; */
+    /* border-left: 2px solid var(--secondary-color);
+    padding-left: 10px;
+    margin-bottom: 3px; */
+}
+
+.main-section {
+    background: var(--background-color);
+}
+
+.main-section:nth-child(2n) {
+    background: var(--background-alt-color);
+}
+
+.main-section h2:first-child {
+    font-family: "Raleway";
+    font-weight: lighter;
+    font-size: var(--section-size);
+    margin-bottom: 1.5em;
+    padding-left: 0em;
+    display: inline-block;
+    border-bottom: 2px solid var(--secondary-color);
+
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card-box a {
+    width: 180px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+@supports (display: grid) {
+    .card-box {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr) ) ;
+    }
+
+    .card-box a {
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 2px 2px 5px #aaa;
+    transition: var(--transition-time);
+}
+
+.card:hover {
+    /* box-shadow: 2px 2px 7px #777; */
+    box-shadow: 2px 2px 7px #777;
+}
+
+.card__picture {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.card__info {
+    padding: 8px;
+}
+
+.card__role {
+    /* font-size: 12pt; */
+    font-size: var(--text-size);
+    color: var(--lighter-color);
+}
+
+.publication {
+    margin-top: 1em;
+}
+
+.publication__title {
+    font-weight: bold;
+}
+
+.publication__authors {
+    font-style: italic;
+}
